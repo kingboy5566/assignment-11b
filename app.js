@@ -1,41 +1,40 @@
-document.write("<h3> Q:-1 </h3>")
+// document.write("<h3> Q:-1 </h3>")
+// var number = prompt("Enter a number","3.45214");
+// document.write("number "+number +" "+ "<br>")
+// //round 
+// var a = Math.round(3.45214)
+// document.write("round off value :"+a);
+// document.write("<br>")
+// // floor
+// var a = Math.floor(3.45214)
+// document.write("floor value : "+a+"<br>");
 
-
-var a = Math.round(3.45214)
-document.write(a);
-
-document.write("<br>")
-
-var a = Math.ceil(3.45214)
-document.write(a);
+// //ceil
+// var a = Math.ceil(3.45214)
+// document.write("Ceil value :"+ a);
 
 
 document.write("<br>")
 document.write("<h3> Q:-2 </h3>")
 
 
-//  var b = prompt("Enter the negative value");
-//  document.write("<h3> Number </h3>" +"<br>"+ b);
-
-
-// document.write("<br> <h4> Round </h4>")
-//  document.write(Math.round(b));
-
- 
-// document.write("<br> <h4> floor </h4>")
-// document.write(Math.floor(b));
-
-// document.write("<br> <h4> floor </h4>")
-// document.write(Math.ceil(b));
+ var b = prompt("Enter the negative value"," -2.673");
+ document.write("Number" +" "+ b +"<br>");
+// roun
+ document.write("round off value :"+Math.round(b)+"<br>");
+//floor
+document.write("floor value"+Math.floor(b)+"<br>");
+//ceil
+document.write("ceil value :"+Math.ceil(b)+"<br>");
 
 
 
 document.write("<h3> Q:-3 </h3>")
 
+var num1 = -4
+var c = Math.abs(num1)
+document.write("The absolute value of :" + c)
 
-var c = Math.abs(-4)
-document.write("The absolute value of " )
-document.write(c);
 
 
 document.write("<h3> Q:-4 </h3>")
@@ -95,6 +94,7 @@ document.write("<h3> Q:-8 </h3>");
 
 
 var rnd = Math.floor(Math.random()*10)+1;
+document.write(rnd)
 var chek = prompt("this is a game \n plase Enter a number");
 
 if( rnd === chek){
