@@ -79,14 +79,18 @@ document.write(" random number between 1 and 100 : " + e);
 document.write("<br>");
 document.write("<h3> Q:-7 </h3>")
 
-// var weight = prompt(" Enter your waight");
-
-// for ( var i=0; i<=weight.length; i++){
-//     if ( weight.slice(i,i+weight.length)=== weight){
-//         document.write( "The weight is user"+" "+ weight+" "+"Kilograms")
-//     }
-// }
-
+var waight =prompt('Enter you waight')
+ 
+ 
+ if ( waight.length === 2){
+   document.write(waight.slice(0,2)+ " "+' kilo gram')
+ }else if (waight.length === 4){
+   document.write(waight.slice(0,5)+" "+'kilo gram')
+ }else if (waight.length === 5 ){
+   document.write(waight.slice(0,6)+" "+'kilo gram')
+ }
+ else{alert('plzz enter the right your waight')
+ };
 
 // Q:- 8
 document.write("<br>");
