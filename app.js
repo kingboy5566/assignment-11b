@@ -1,17 +1,17 @@
-// document.write("<h3> Q:-1 </h3>")
-// var number = prompt("Enter a number","3.45214");
-// document.write("number "+number +" "+ "<br>")
-// //round 
-// var a = Math.round(3.45214)
-// document.write("round off value :"+a);
-// document.write("<br>")
-// // floor
-// var a = Math.floor(3.45214)
-// document.write("floor value : "+a+"<br>");
+document.write("<h3> Q:-1 </h3>")
+var number = prompt("Enter a number","3.45214");
+document.write("number "+number +" "+ "<br>")
+//round 
+var a = Math.round(3.45214)
+document.write("round off value :"+a);
+document.write("<br>")
+// floor
+var a = Math.floor(3.45214)
+document.write("floor value : "+a+"<br>");
 
-// //ceil
-// var a = Math.ceil(3.45214)
-// document.write("Ceil value :"+ a);
+//ceil
+var a = Math.ceil(3.45214)
+document.write("Ceil value :"+ a);
 
 
 document.write("<br>")
